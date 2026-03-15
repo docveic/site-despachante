@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>DOC Veículo Despachante</title>
+
+<style>
+
+body{
+font-family:Arial;
+margin:0;
+background:#f4f4f4;
+color:#333;
+}
+
+/* faixa da logo */
+
+header{
+
+background:white;
+padding:20px;
+display:flex;
+align-items:center;
+justify-content:center;
+gap:20px;
+border-bottom:1px solid #ddd;
+
+}
+
+header img{
+
+height:80px;
+
+}
+
+/* menu */
+
+nav{
+
+background:#111;
+padding:14px;
+text-align:center;
+
+}
+
+nav a{
+
+color:white;
+margin:0 15px;
+text-decoration:none;
+font-weight:bold;
+font-size:16px;
+
+}
+
+/* banner */
+
+.hero{
+
+background:linear-gradient(135deg,#1a1a1a,#444);
+color:white;
+padding:80px 20px;
+text-align:center;
+animation:fadein 1.5s;
+
+}
+
+.hero h1{
+
+font-size:38px;
+margin-bottom:10px;
+
+}
+
+.hero p{
+
+font-size:20px;
+
+}
+
+/* conteúdo */
+
+.container{
+
+max-width:1000px;
+margin:auto;
+padding:40px 20px;
+
+}
+
+.section{
+
+background:white;
+padding:30px;
+margin-bottom:25px;
+border-radius:8px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+transition:0.3s;
+
+}
+
+.section:hover{
+
+transform:translateY(-5px);
+
+}
+
+.servicos{
+
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:15px;
+
+}
+
+.servico{
+
+background:#f2f2f2;
+padding:15px;
+border-radius:6px;
+
+}
+
+/* mapa */
+
+iframe{
+
+width:100%;
+border:0;
+border-radius:6px;
+
+}
+
+/* rodapé */
+
+footer{
+
+background:#111;
+color:white;
+text-align:center;
+padding:20px;
+
+}
+
+/* whatsapp */
+
+.whatsapp{
+
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px 20px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+box-shadow:0 5px 10px rgba(0,0,0,0.3);
+
+}
+
+/* animação */
+
+@keyframes fadein{
+
+from{
+opacity:0;
+transform:translateY(20px);
+}
+
+to{
+opacity:1;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<img src="logo.png" alt="DOC Veículo Despachante">
+
+</header>
+
+<nav>
+
+<a href="index.html">Início</a>
+<a href="busca-apreensao.html">Busca e Apreensão</a>
+<a href="#contato">Contato</a>
+
+</nav>
+
+<div class="hero">
+
+<h1>Despachante especializado em documentação veicular</h1>
+
+<p>Regularização rápida de documentos em Curitiba e região</p>
+
+</div>
+
+<div class="container">
+
+<div class="section">
+
+<h2>Serviços</h2>
+
+<div class="servicos">
+
+<div class="servico">Transferência de veículos</div>
+
+<div class="servico">Regularização de documentos</div>
+
+<div class="servico">2ª via de CRLV</div>
+
+<div class="servico">Licenciamento</div>
+
+<div class="servico">Baixa de veículo</div>
+
+<div class="servico">Consultoria em documentação</div>
+
+</div>
+
+</div>
+
+<div class="section">
+
+<h2>Localização</h2>
+
+<iframe
+
+src="https://www.google.com/maps?q=Rua+Cel+Cypriano+Gomes+da+Silveira+Curitiba&output=embed"
+
+height="300">
+
+</iframe>
+
+</div>
+
+<div class="section" id="contato">
+
+<h2>Contato</h2>
+
+<p><b>Telefone / WhatsApp:</b> (41) 99554-2961</p>
+
+<p><b>Email:</b> docveiculo@gmail.com</p>
+
+<p>
+
+<b>Endereço:</b><br>
+
+Rua Cel. Cypriano Gomes da Silveira<br>
+
+Bairro Xaxim<br>
+
+Curitiba - Paraná
+
+</p>
+
+<p>
+
+<b>Horário de atendimento:</b><br>
+
+Segunda a sexta — 8h às 12h
+
+</p>
+
+</div>
+
+</div>
+
+<footer>
+
+DOC Veículo Despachante • Curitiba - PR
+
+</footer>
+
+<a class="whatsapp"
+
+href="https://wa.me/5541995542961"
+
+target="_blank">
+
+WhatsApp
+
+</a>
+
+</body>
+
+</html>
